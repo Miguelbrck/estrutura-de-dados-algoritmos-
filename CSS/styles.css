@@ -1,0 +1,20 @@
+  h1 {
+      cursor: help;
+      text-align: center;
+      color: green;
+  }
+
+  p {
+      text-align: center;
+
+  }
+
+  h2 {
+      cursor: help;
+      text-align: center;
+      color: blue
+  }
+
+  img{
+    width: 100%
+}
