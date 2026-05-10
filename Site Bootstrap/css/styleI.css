@@ -1,0 +1,50 @@
+/* Fundo do site */
+body {
+    margin: 0;
+    background-color: #092a00;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Primeira parte */
+.centro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Seção inferior */
+.conteudo {
+    padding: 150px 20px;  /* distância para descer */
+    text-align: left;   /* centraliza tudo */
+}
+
+.btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #fff;   /* borda normal */
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: rgb(255, 255, 255);
+    border: 1px solid #fff;   /* mantém a borda no hover */
+    color: black;             /* mantém a cor do texto */
+}
+
+.carousel{
+    padding: 100px 100px;
+}
+
+h1 {
+ font-size: 60px;
+}
+
